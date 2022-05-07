@@ -1,0 +1,62 @@
+main {
+  font-family: "Roboto", sans-serif;
+  background-color: lightblue;
+  height: 100%;
+  width: 100%;
+  color: grey;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 300px;
+  padding: 7px;
+  margin: 20px;
+  margin-left: 35%;
+}
+.mode-btn:hover {
+  background-color: honeydew;
+  color: #333;
+}
+.mode-btn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background: lightsteelblue;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+section {
+  width: 200px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 10px 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 5px;
+  background-color: rgba(255, 255, 255, 0.884);
+  border-radius: 15px;
+}
+.dark-mode {
+  background-color: #333;
+  height: 100%;
+  width: 100%;
+}
+img {
+  width: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  border: 2px solid skyblue;
+  box-shadow: rgb(184, 220, 235) 2px 5px 10px 5px;
+}
+.dissmis {
+  margin-top: 10px;
+}
